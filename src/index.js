@@ -30,8 +30,12 @@ var data=(
   <div>
   <Person name="Katrina" age="29" color="blonde"/>
   </div>
-  
-)
+  )
+  var data=(
+    <div>
+    <Person name="Katrina" age="29" color="blonde"/>
+    </div>
+    )
 
 ReactDOM.render(data, document.querySelector('#data'));
 ReactDOM.render(<Math />, document.getElementById('math'));
