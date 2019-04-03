@@ -3,11 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 
- var person=(
-   <div className="myClass">
-   <h1>Hello world</h1>
-   </div>
- );
+var person=(<div>
+<h1>Hello World </h1>
+</div>);
 ReactDOM.render(person, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
