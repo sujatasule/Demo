@@ -12,3 +12,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.myClass {
+  display: inline-block;
+  background-color: pink;
+}
+
+#data {
+  background-color: orange;
+  width: 150px;
+}
